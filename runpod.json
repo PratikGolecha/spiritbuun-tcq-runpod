@@ -1,0 +1,11 @@
+{
+  "name": "spiritbuun TCQ llama.cpp - 1M Context Inference",
+  "description": "Trellis-Coded Quantization powered llama.cpp for extreme long-context inference on RunPod. Supports 1,000,000+ token contexts with 5.2x KV cache compression and better quality than FP16.",
+  "category": "AI/ML - Language Models",
+  "containerDiskSize": 50,
+  "gpu": {
+    "recommended": ["H100", "RTX_6000_Ada"],
+    "minimumVram": 24
+  },
+  "versionNumber": "1.0.0"
+}
