@@ -27,7 +27,7 @@ RUN --mount=type=cache,target=/ccache \
         -DGGML_CUDA=ON \
         -DGGML_CUDA_FA=ON \
         -DGGML_CUDA_FA_ALL_QUANTS=ON \
-        -DCMAKE_CUDA_ARCHITECTURES="100" \
+        -DGGML_CUDA_ARCHITECTURES=native \
         -DLLAMA_BUILD_SERVER=ON \
         -DLLAMA_BUILD_TESTS=OFF \
         -DCMAKE_BUILD_TYPE=Release \
